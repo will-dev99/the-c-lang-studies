@@ -20,7 +20,10 @@ int main() {
         um espaço em branco, um tab ou um caractere 
         de nova linha. */
         if (c == ' ' || c == '\t' || c == '\n') {
-            /* se um separador for encontrado, temos uma palavra em andamento (length > 0) e o comprimento é válido (length < 10), processamos a palavra */
+            /* se um separador for encontrado, 
+            temos uma palavra em andamento (length > 0) 
+            e o comprimento é válido (length < 10), 
+            processamos a palavra */
             if (length > 0 && length < MAX) {
                 if (length > maxfound)
                     maxfound = length;
