@@ -5,7 +5,7 @@
 
 int main() {
     int lengths[MAX];
-    int i, j, c, maxfound, length, state;
+    int i, j, c, maxfound, length;
 
     i = j = c = maxfound = length = 0;
     state = 0;
