@@ -1,4 +1,4 @@
-- Uma observação final antes de sairmos do programa de conversão de temperatura para sempre. Não é uma boa prática tirar "números mágicos" como 300 e 20 em um programa; eles possuem pouca informação para alguém que está lendo o código por fora sem contexto, e também são difíceis de mudar de uma maneira sUma linha #define define um nome simbólico ou constante simbólica como uma sequência específica de caracteres:
+- Uma observação final antes de sairmos do programa de conversão de temperatura para sempre. Não é uma boa prática tirar "números mágicos" como 300 e 20 em um programa; eles possuem pouca informação para alguém que está lendo o código por fora sem contexto, e também são difíceis de mudar de uma forma sistemática. Uma maneira de lidar com números mágicos é dar-lhes nomes significativos. Uma linha #define define um nome simbólico ou constante simbólica como uma sequência específica de caracteres:
 
 ```c
 #define name replacement list
