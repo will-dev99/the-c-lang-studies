@@ -11,7 +11,7 @@ int main() {
     char linha[MAXLINE];
     
     while ((tam = get_line(linha, MAXLINE)) > 0) {
-        contador = tam - 1;
+        contador = tam - 2;
         
         // enquanto contador for maior que 0 e linha[contador] for um espaço em branco OU um tab, decrementa 1 em contador
         while (contador >= 0 && (linha[contador] == ' ' || linha[contador] == '\t'))
