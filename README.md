@@ -38,3 +38,9 @@ Exercício 1.15. Reescreva o programa de conversão de temperatura para usar uma
 
 Exercício 1−16. Revise a rotina principal do programa de linha mais longa para que ele imprima corretamente o comprimento de
 linhas de entrada arbitrariamente longas e, tanto quanto possível, o texto.
+
+Exercício 1−17. Escreva um programa para imprimir todas as linhas de entrada com mais de 80 caracteres.
+
+Exercício 1−18. Escreva um programa para remover espaços em branco e tabulações finais de cada linha de entrada e para excluir linhas totalmente em branco.
+
+Exercício 1−19. Escreva uma função reverse(s) que inverta a cadeia de caracteres s. Use-a para escrever um programa que inverta a sua entrada, uma linha de cada vez.
